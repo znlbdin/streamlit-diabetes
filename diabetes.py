@@ -13,29 +13,29 @@ col1, col2 = st.columns(2)
 
 # membuat form imputan
 with col1:
-    Pregnancies = st.text_input("Input Nilai Pregnancies")
+    Pregnancies = st.number_input("Input Nilai Pregnancies")
 
 with col2:
-    Glucose = st.text_input("Input Nilai Glucose")
+    Glucose = st.number_input("Input Nilai Glucose")
 
 with col1:
-    BloodPressure = st.text_input("Input Nilai BloodPressure")
+    BloodPressure = st.number_input("Input Nilai BloodPressure")
 
 with col2:
-    SkinThickness = st.text_input("Input Nilai SkinThickness")
+    SkinThickness = st.number_input("Input Nilai SkinThickness")
 
 with col1:
-    Insulin = st.text_input("Input Nilai Insulin")
+    Insulin = st.number_input("Input Nilai Insulin")
 
 with col2:
-    BMI = st.text_input("Input Nilai BMI")
+    BMI = st.number_input("Input Nilai BMI")
 
 with col1:
-    DiabetesPedigreeFunction = st.text_input(
+    DiabetesPedigreeFunction = st.number_input(
         "Input Nilai DiabetesPedigreeFunction")
 
 with col2:
-    Age = st.text_input("Input Nilai Age")
+    Age = st.number_input("Input Nilai Age")
 
 # code untuk prediksi
 diab_diagnosis = ""
