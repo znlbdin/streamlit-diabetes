@@ -57,9 +57,9 @@ if st.button("Test Diagnosis"):
         ]
     )
 
-    if diab_prediction[0] == 0:
+    if (diab_prediction[0] == 0):
         diab_diagnosis = "Pasien Tidak Terdiagnosis Diabetes"
     else:
         diab_diagnosis = "Pasien Terdiagnosis Diabetes"
 
-    st.success(diab_diagnosis)
+st.success(diab_diagnosis)
